@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "common-sw-module-poc"
+version = "0.0.1"
+description = "Shared utilities"
+authors = ["Your Name <alejo.maya@southworks.com>"]
+packages = [{ include = "common" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
